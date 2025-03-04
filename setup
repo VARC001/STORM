@@ -11,7 +11,7 @@ _stormbot_zip () {
 
 _starter () {
     echo "ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ꜱᴛᴏʀᴍ ᴜꜱᴇʀʙᴏᴛ [ᴘʀɪᴍᴇ+ ᴠ2.2]"
-    stormpath="Plugins.zip"
+    stormpath="plugins.zip"
 
     wget -q $(_stormbot_zip) -O "$stormpath"
     STORMPATH=$(zipinfo -1 "$stormpath" | grep -v "/.");
