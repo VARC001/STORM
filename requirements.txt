@@ -25,4 +25,3 @@ telegraph
 tgcrypto
 Unidecode
 wikipedia
-yt-dlp @ git+https://github.com/Badmunda98/yt-dp-fork
